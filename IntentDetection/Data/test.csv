@@ -1,0 +1,361 @@
+sentence,intent
+em có thể làm đề tài trái với ngành học của mình không?,Student_research
+năm 2016 1 tín ngành kế toán bao nhiêu ạ,Tuition_fee
+đại học keuka đào tạo những ngành j ac,Major_infor
+khi nào chúng em phải bảo vệ đề tài nghiên cứu khoa học ạ?,Student_research
+em chưa rõ là khoa mình nhập học gồm những bc nào vậy ah?, Enrollment
+mỗi năm khoa cung cấp bao nhiêu học bổng?,Scholar
+ad cho e hỏi học phí một năm của khoa là bao nhiêu ạh,Tuition_fee
+chỉ tiêu năm nay ngành ac có bằng năm ngoái là 150 k ạ?,Admission_method
+"ad ơi, khoa mình có tỉ lệ giáo viên nc ngoài là bao nhiêu thế ạ?",Major_infor
+chương trình liên kết vs đh help năm nay lấy bn chỉ tiêu ạ,Admission_method
+"ad ơi, nếu dc ad cho em xin thông tin chi tiết của chương trình bằng kép khoa mình với ạ?",Major_infor
+gửi em đơn xin gia hạn học phí,Asking_docs
+lịch thời khóa biểu k17,Other
+cho em mẫu đkxt ạ,Asking_docs
+bạn cho mình hỏi điều kiện tuyển thẳng của ngành tin học và kí thuật máy tính với ạ,Admission_method
+k phải,Denydisagree
+em muốn đk học bổng vingroup thì phải đạt những đk gì ạ?,Scholar
+em k đồng tình,Denydisagree
+hình thức thi tiếng anh là gì ạ,Eng_condition
+"ad ơi, nếu tham gia nckh thì em sẽ đc tối đa bn tiền giải vaayn ạ?",Student_research
+liên hệ vs phụ trách câu lạc bộ isupport kiểu gì ah,contact_point
+học khoa học quản lý ra làm gì ạ,Job_Opportunities
+em định thi vào khoa vậy ad cho em hỏi tiền học /1 tín chỉ là bao nhiêu ạ,Tuition_fee
+những môn nào học bằng tiếng việt,Major_infor
+thủ tục nhập học làm có lâu k ạ?, Enrollment
+thời gian nhập học đợt 2 từ 1/9 phải k ad?, Enrollment
+ngành quản lí hay ngành kinh doanh quốc tế thì dễ tìm việc làm hơn ạ,Job_Opportunities
+có đề tài nào liên quan đến lĩnh vực xã hội k ạ?,Student_research
+cho e hỏi câu cuói là điểm đầu vào năm trước của ngành kinh doanh quốc tế bên trg mk là bao nhiêu ạ,Basic_point
+chuyển tieếp có yêu cầu diểm họ trên lớp trên bao nhiêu ad ơi ?,Major_infor
+cho em hỏi các chương trình liên kết thời gian học mỗi học kỳ trong bao lâu ạ,Major_infor
+bh mới thấy ad thông minh một tí,Agree
+dạ?,Agree
+nếu đc giải nckh thì em có thể đc cử đi thi tham gia giải nckh cấp quốc gia k ạ?,Student_research
+tại sao điểm trúng tuyển khoa mình các năm trước thấp vậy ạ,Basic_point
+"ad ơi, cho em hỏi các chương trình liên kết nào em có thể đk ạ?",Major_infor
+nếu đề tài nckh đc đi thi tầm đại học quốc gia thì khoa hỗ trợ ntn ạ?,Student_research
+e muốn hỏi học phí của ngành kế toán phân tích và kiểm toán của trường ạ,Tuition_fee
+e muốn hỏi học phí khoa kinh doanh quốc tê vs ạ,Tuition_fee
+em muốn nộp bổ sung ảnh lúc nhập học em nộp thiếu thì nộp ở đâu,Other
+điểm các nganh năm nay khoảng bao nhieu vậy ạ,Basic_point
+trong bài thi tiếng anh kỹ năng nói chiếm bao nhiêu điểm ạ ?,Eng_condition
+em đg là hs năm cuối thpt và em mới tìm hiểu về trường,Other
+những công việc chính sau khi học xong kế toán là gì vậy a,Job_Opportunities
+đúng,Agree
+thời gian cho kỹ năng nói là bao lâu ạ,Eng_condition
+trị giá của mỗi xuất học bổng ngoài đh quốc gia hà nội,Scholar
+cho em hỏi ngành hẹt thống thông tin năm nay bao nhiêu thế ?,Basic_point
+"ad ơi, gửi cho em xin form làm minh chứng xét điểm rèn luyện vs ạ",Asking_docs
+bạn cho mình hỏi thông tin về đk tuyển thẳng của ngành ib đc k ?,Admission_method
+ngoài điều kiện về điểm thi thptqg thì còn điều kiện nào để đc xét tuyển thẳng ạ?,Admission_method
+giải thưởng cho các giải nhất nhì ba có sự khác biệt ntn khi tham gia nckh ?,Student_research
+làm sao để đc học bổng k ạ?,Scholar
+địa chỉ nhận hồ sơ nhập học đợt 1 là ở đâu ạ, Enrollment
+điểm thi thpt được 24 xét tuyển vào trường có được học bổng k ạ,Scholar
+"ad ơi, cho em hỏi thời gian nộp báo cáo tổng kết nckh ạ?",Student_research
+chỉ tiêu ngành ib năm nay là bao nhiêu?,Admission_method
+"ad cho em hỏi, làm thế nào để đc tuyển thẳng vào khoa mình ạ",Admission_method
+tạm biệt bạn nhé,Bye
+học bổng quốc tế là gì ạ,Scholar
+ib học ở đâu ạ,School_infor
+cho tớ hỏi nếu được học bổng địa phương 100% thì có được học bổng ngắn hạn (theo điểm phẩy mỗi học kì) ko?,Other
+em có thắc mắc về quy trình nhập học ngành ac thì có thể liên lạc vs ai ạ?, Enrollment
+vâng ạ. à ad ơi cho em xin thông tin về học phí với ạ.,Tuition_fee
+admin ơi,Greetings
+bye,Bye
+cho em xin danh sách các môn cần học của ngành quản trị thể thao ạ,Major_infor
+cho em hỏi các điểm tiếp nhận hồ sơ nhạp học của khoa ạ?, Enrollment
+em làm thủ tục nhập học ở làng sv đc k ạ, Enrollment
+"ad ơi, gửi cho em xin lộ trình nckh năm trước vs ạ?",Student_research
+ad cho em địa chỉ cụ thể nhập học đc k ạ?, Enrollment
+bằng kép thì do khoa mình lk vs các trường nào ạ?,Major_infor
+ngành khoa học quản lý do ai cấp bằng ạ,Major_infor
+các chương trình liên kết có mã ngành bao nhiêu ạ,Major_infor
+tks bạn.,Bye
+chỉ tiêu là bn ạ,Admission_method
+có bao nhiêu suâất học bổng phát triển tài năng vậy ad?,Scholar
+"ad ơi, phần trăm giáo viên nc ngoài đứng lớp là bn thế ạ?",Major_infor
+ad ơi cho em hỏi là điểm chuẩn ngành kinh doanh quốc tế khoa mình năm ngoái là bao nhiêu ạ?,Basic_point
+cho em xin số điện của phòng tuyển sinh ạ,contact_point
+ý em k phải như vậy,Denydisagree
+cho e hỏi khoa mình có xét khối d66 k ạ,Admission_method
+học bổng dài hạn thì gồm những học bổng nào ạ,Scholar
+ad ơi cho em hỏi là điểm chuẩn ngành kinh doanh quốc tế khoa mình năm ngoái là bao nhiêu ạ? với lại mức học phí của khoa là khoảng bao nhiêu ạ? em cảm ơn ad ạ!,Tuition_fee
+"ngoài đọc và viết ra,placement test còn thi những gì nữa ạ",Eng_condition
+"admin ơi, cho em xin đề tài nckh năm nay đc k ạ?",Student_research
+"em rất muốn đc tuyển thẳng vào khoa, vậy em phải đạt những đk gf ạ?",Admission_method
+học kinh doanh quốc tế ra trường có nhiều cơ hội việc làm k ạ,Job_Opportunities
+ad uj,Greetings
+mức học phí một năm học,Tuition_fee
+"ad ơi, tổng học phí chuyển tiếp 2 năm của trường keuka  là bao nhiêu ạ?",Major_infor
+"anh chị ơi. em đc biết khoa mình có tuyển thẳng sv k cần thi, vậy quy chế tuyển thẳng của khoa mình là sao ạ",Admission_method
+vâng em cảm ơn ạ,Bye
+"trường mình có ai học quản trị kinh doanh không ạ? add em, em hỏi cái?",Other
+ngành hệ thống thông ti ql năm ngoái lấy bao nhiều chỉ tiêu ạ?,Admission_method
+làm thủ tục nhập học thì có bắt buộc phải đến trường k ạ?, Enrollment
+nhà trg cho e hỏi là,Greetings
+nhập học tại cơ sở nào ạ?, Enrollment
+cho e m xin mẫu đơn đk xét tuyển ạ,Asking_docs
+ngày hết hạn đk tham gia đề tài nckh là bh vậy ạ?,Student_research
+"ad ơi, các lĩnh vực mà các đề tài nckh năm nay có là những gì ạ?",Student_research
+"a/c ơi, quy trình nhập học đợt bổ sung gồm những bc gì ạ?", Enrollment
+các trường đại học anh yêu cầu gì khi muốn chuyển tiếp,Major_infor
+thế còn về xét học bạ thì tn ạ,Admission_method
+chỉ đc xét tuyển thẳng vào 1 ngảnh thôi ạ?,Admission_method
+học phí bao nhiêu ạ,Tuition_fee
+khoa có mấy đơn vị phòng ban,School_infor
+"bạn ơi, mình hỏi về... cơ mà",Denydisagree
+khoa quốc tế có từ bao giờ,School_infor
+hey,Greetings
+a/c cho em hỏi là ngành cử nhân luật quốc tế có phải là chương trình bằng kép k ạ?,Major_infor
+chỉ tiêu đợt 2 ngành mis khoa mình năm nay là bao nhiêu ạ?,Admission_method
+cơ sở ở ngụy như kon tum có nhận hồ sơ k ạ?, Enrollment
+hcoj phí khi chuyển tiếp sang đh troy 1 năm là bao nhiêu,Major_infor
+thi placement test thì kiểm tra mấy kỹ năng ạ,Eng_condition
+có học những môn đại cương không ạ?,Other
+c ơi chương trình liên kết đào tạo cử nhân tin học và kĩ thuật máy tính còn đăng kí bằng kq đánh giá năng lực đc k ạ?,Admission_method
+ad ơi cho em hỏi học phí nộp vào bao giờ vậy ạ?,Tuition_fee
+chuyển tiếp co yeu cầu gì ko ad ơi,Major_infor
+cho em đơn chứng mình là sv khoa mình đc k ạ,Asking_docs
+làm thế nào để được nhận học bổng ngoài ngân sách ạ?,Scholar
+năm trược em được giải cấp quốc gia thì có được nhạn học bổng k ạ?,Scholar
+chỉ tiêu năm nay có bằng năm trc k ạ?,Admission_method
+em muốn học lại sau khi bảo lưu nhưng k biết làm đơn ntn ạ?,Asking_docs
+điều kiện tuyển thẳng áp dựng ở những ngành nào ạ,Admission_method
+ngành tin học kỹ thuật học những môn nào ah,Major_infor
+"ngành  cử nhân quản trị khách sạn, thể thao và du lịch thì còn nhận hồ sơ tuyển thẳng k ạ",Admission_method
+khoa có điểm tiếp nhận hồ sơ nhập học ở tp hồ chí minh k ạ?, Enrollment
+ok thanks,Bye
+anh/chị vui lòng cho em biết cấu trúc chương trình chi tiết của chương trình kinh doanh quốc tế được ko ah ?,Major_infor
+ý em là thế mà,Agree
+nếu có thì cho em hỏi khoa đó yêu cầu hồ sơ nộp gồm những gì ạ?, Enrollment
+a/c cho e hỏi ạ. e muốn đăng kí vào khoa quốc tế thì phải làm hồ sơ thi nhưbình thường đúng k ạ????, Enrollment
+sdt cơ sở kiều mai baonhieeu ạ,contact_point
+"a/c ơi, cho em xin học phí chuyển tiếp của trg đh troy vs",Major_infor
+địa điểm nhập học đợt 2 ở đâu ạ, Enrollment
+em đỗ nguyện vọng 2 ngành kdqt thì hò sơ nhập học là ntn vậy ạ?, Enrollment
+hạn đk tham gia nckh năm nay là gì ạ?,Student_research
+trường có 2 cơ sở nếu nhập học thì sẽ học ở đâu ạ?, Enrollment
+có chưa ạ,Other
+ý mình là vậy đó,Agree
+chỉ tiêu học bổng của tập đoàn vingroup năm nay là bao nhiêu ạ?,Scholar
+học phí trường mình là như nào ạ?,Tuition_fee
+đại học quốc gia cấp bằng thì khoa mình đang có những chương trình gì ah,Major_infor
+"ad cho em hooorii, làm thế nào để được tuyển thẳng vào ngành kinhdoanh quốc tế ạ",Admission_method
+học quản lí thì ra trường làm nghề gì ạ?,Job_Opportunities
+"thầy cô cho em hỏi, học phí 1 tín chỉ ngành kinh doanh là bao nhiêu ạ",Tuition_fee
+"bạn ơi, gửi cho mình thông tin về chương trình bằng kép của khoa nhé",Major_infor
+"ad ơi, giải nhì nckh là bn vậy ad?",Student_research
+giấy tờ nhập học 2019 gồm những j?, Enrollment
+em muốn học chương trình liên kết thì điều kiện tuyển thẳng là  ntn,Admission_method
+cho em xin địa chỉ liên hệ của trường nhé,School_infor
+ad ơi khoa kinh doanh quốc tế trường mình sau này ra trường làm công việc gì và làm ở đâu ạ,Job_Opportunities
+học bổng ngắn hạn giỏi hạng 3 có mấy suất ạ?,Scholar
+công việc cụ thể của từng ngành là gì ạ,Job_Opportunities
+"ad ơi, cho em xin thông tin về chương trình học song bằng tại khoa ạ?",Major_infor
+nếu kết thúc lv4 sẽ có bài ktra của trường để lên lv5 đúng k ạ,Other
+hồ sơ nhập học có bao gồm giấy khai sinh k ạ? bản sao hay bản gốc ạ?, Enrollment
+khi thi  placement test các kỹ nawgn thi liền nhau hay tách riêng,Eng_condition
+"ad ơi, em muốn học song bằng thì có thể học ở các trường nào ạ?",Major_infor
+ad ơi cho e hỏi thêm là e có thể nhập học muộn hơn so với hạn nhập học là bn ngày ạ, Enrollment
+"k, em muốn hỏi về học phí ngành hệ thống thông tin cơ ạ",Tuition_fee
+học phí của khoa như thế nào ạ ?,Tuition_fee
+chào thầy(cô/anh/chị) e muốn hỏi quy chế tuyển thẳng của khoa ạ,Admission_method
+"ad ơi, khoa sẽ hỗ trọ ntn cho mỗi sinh viên tham gia nckh vậy ạ?",Student_research
+vâng,Agree
+em k hỏi câu đó,Denydisagree
+k phải ý em muốn hỏi,Denydisagree
+em có thể xem định dạng 1 bài thi ta mẫu ở đâu ?,Eng_condition
+hóa ra là vậy,Agree
+vâng vâng !,Agree
+đc cụ thể của khoa mình ở đâu vậy ạ,School_infor
+thời gian nhập học chính thức của ngành ac là bao giiwof vậy ạ?, Enrollment
+thời gian học tiếng anh dự bị là mấy năm,Major_infor
+"bạn ơi, mình muốn học song bằng tại khoa, bạn cho mình xin thông tin về chương trình song bằng của khoa vs ?",Major_infor
+"ad ơi, ngành mình có cơ hội chuyển tiếp sang những trg nào ạ?",Major_infor
+em hỏi về cái khác cơ mà,Denydisagree
+"chương trình liên kết học mấy năm ở vn, mấy năm ở nước ngoài ạ",Major_infor
+cho e hỏi nếu học thì học ở cơ sở 1 hay cơ sở 2 ạ,School_infor
+ib là làm về kinh doanh là nhiều hay làm cái gì ạ,Job_Opportunities
+e cảm ơn ạ,Bye
+ai có thể giúp em giải đáp thắc mắc về thủ tục nhâp hoc ạ?, Enrollment
+nếu thành tích học tập của e k tốt thì làm gì để đc học bổng ạ?,Scholar
+làm thủ tục nhập học thì có phải mang tiền theo k ạ?, Enrollment
+em muốn biết thêm về cách xét tuyển vào ngành kinh doanh quốc tế ạ,Admission_method
+"ad ơi, em muốn biết các ngành liên kết của khoa mình  là những ngành gì ạ?",Major_infor
+"ad cho e hỏi học phí của ngành kế,kiểm toán ạ",Tuition_fee
+xét tuyển thẳng là chỉ đc xét 1 ngành thôi a?,Admission_method
+phiếu đăng ký xét tuyển có trong hồ sơ nhập học k ạ, Enrollment
+"ad ơi, cho em xin lộ trình nckh chi tiết năm nay đc k ạ",Student_research
+chỉ tiêu học bổng khuyến khích học tập ?,Scholar
+học 4 năm học bên hancico ạ,School_infor
+em có cơ hội học tham gia các chuyến nghiên cứu vs giáo viên k ạ?,Student_research
+cho em xin mẫu đơn đk thi vượt cấp ạ,Asking_docs
+chương trình kế kiểm do đơn vị nào cấp bằng ạ,Major_infor
+nhập học ngành kế kiểm thì em phải làm những gì nữa ạ, Enrollment
+em nhận được giấy báo trúng tuyển rồi thì mai e đến nhập học phải không a/c, Enrollment
+đại học help có mã ngành là bao nhiêu ạ,Major_infor
+mình hiều rồi. cảm ơn ad,Bye
+trường mình có xét tuyển bổ sung bằng học bạ ko ạ,Admission_method
+hằng năm khoa mình có những loại học bổng gì ạ?,Scholar
+số tiền mỗi tín năm 2016 là bao nhiêu ạ ?,Tuition_fee
+giáo viên nước ngoài đến từ đâu ạ,Major_infor
+theo ctrinh do đhqg thì xét theo giống bộ còn ctrinh liên kết thì xét học bạ đúng k ạ,Admission_method
+ngành tin học kỹ thuật máy tính học trong mấy năm a,Major_infor
+cho em hỏi thi tiếng anh có thi vấn đáp không,Eng_condition
+lịch nhận hồ sơ xét tuyển thẳng là bao giwof ạ?,Admission_method
+tks a lot!,Bye
+trg mình có học bổng k ạ,Scholar
+địa chỉ củ thể của trường mình là ở đâu ạ,School_infor
+admin ơi ngành tin học kĩ thuạt năm nay ghi mã xét tuyển thế nào vậy?,Major_infor
+cho mk hỏi hok kế toán sau này có kiếm đk vc lm ko,Job_Opportunities
+khoa có thể cho e mã ngành của ngành quản lý và ngành kinh doanh kế toán k ạ?,Major_infor
+cho toôi xin sdt của phòng tuyển sinh,contact_point
+coó thể xét tuyển thẳng 2 ngành k ạ?,Admission_method
+em có thể nộp hồ sơ nhập học ở đâu a?, Enrollment
+kh phải,Denydisagree
+"em ko rõ về cấu trúc bài thi thì gồm những phần nào, thời gian bao lâu",Eng_condition
+trường đh troy có xét tuyển thẳng k ạ và đk là thế nào vậy ad,Admission_method
+thủ tục nhập học gồm những việc gì ạ, Enrollment
+"chào ad, em chưa có chứng chỉ tiếng anh hay ngoại ngữ nào, chỉ dựa vào kết quả thi thptqg có thể học khoa quốc tế không ạ?",Admission_method
+cơ hội chuyển tiếp nước ngoài ra sao?,Major_infor
+số lượng xét tuyển thẳng vào ngành mis la  bao nhiêu ạ?,Admission_method
+chào khoa quốc tế,Greetings
+thời gian học của mis kéo dài mấy kỳ ạ,Major_infor
+anh chị cho em hỏi những giấy tờ cần thiết để nhập học vào khoa mình vs ạ?, Enrollment
+ad ơi hình thức thi ta là thi viết à ?,Eng_condition
+cho em xin mẫu đơn đk học bổng chu văn an,Asking_docs
+cho em hỏi thêm về ngành kinh doanh quốc tế của khoa,Major_infor
+đạt giải nhì trong kỳ thi olympic chuyên khoa học tự nhiên bậc thpt được tổ chứcnăm 2018 thì có đc xét tuyển thẳng vào khoa k ạ?,Admission_method
+xin chào anh/chị. em muốn biết có phải khối d06 là toán văn nhật thi vào ngành kinh tế quốc tế có đc ko ạ?,Admission_method
+"ad ơi, em muốn đk học chương trình của đh keuka thì phải chuẩn bị học phí chuyển tiếp là bao nhiêu ạ?",Major_infor
+em muôn liên lạc với clb tình nguyện thì làm thé nào vậy admin,contact_point
+cho e hỏi chỗ học của khoa quốc tế nằm ở đâu ạ,School_infor
+"ngành ib do trường nào cấp bằng ạ, có phải song bằng ko ad",Major_infor
+nếu nhập học thì sẽ học ở ở đâu ạ.,School_infor
+"ad ơi, gửi cho em các đè tài nckh về lĩnh vực kinh tế tài chính đc k ạ?",Student_research
+ad ơigửi cho em xin thông tin về học phí chuyển tiếp tại khoa nhé?,Major_infor
+nhập học đợt 2 thì nộp hồ sơ tại cơ sở nào ạ?, Enrollment
+ice năm ngoái lấy bao điểm ad,Basic_point
+đúng cái e muốn hỏi ak,Agree
+thời gian học tối thiểu tại khoa quốc tế bao lâu thì được chuyển tiếp ạ,Major_infor
+"ad ơi cho e hỏi, e thấy khoa mình chỗ địa chỉ có ghi 2 cơ sở, vậy k17 sẽ học ở địa chỉ nào ạ?",School_infor
+đc điểm đầu vào cao nhất ngành mis thì đc học bổng bn ạ?,Scholar
+e xem trên trang wed học phí 1 khoá rơi vào 180tr à a,Tuition_fee
+mỗi khóa ac có bao nhiêu tín chỉ ạ,Major_infor
+mail của e không thấy thông báo giờ học,Other
+cho e hỏi is bao nhêu tiền 1 tín ạ,Tuition_fee
+học bổng ngoài đại học qg là gì ạ?,Scholar
+"ad ơi em muốn tham gia đề tài nckh nhưng vẫn chưa thấy khoa công bố ,vậy khoa mình đã có danh sách các đề tài chưa ạ?",Student_research
+quy chế xét  tuyển thẳng khoa mình là ntn ạ,Admission_method
+"ad ơi, nếu đc ad gửi cho em xin lộ trình nckh chính xác của năm nay vs ạ?",Student_research
+em muốn nôp hồ sơ nhập học thì nộp ở cơ sở nào ạ?, Enrollment
+khoa cấp bằng thì có nhuwgnx chương trình gì ạ,Major_infor
+mã ngành viết vào hồ sơ cảu ib là gì ạ,Major_infor
+mức học phí khi chuyển tiếp tính bằng tiền việt hay usd ah,Major_infor
+nếu có gì bạn giúp mình nữa nhé,Bye
+giấy tạm vắng có phải mang đi nhập học k ạ, Enrollment
+vângg admin,Agree
+"ad ơi, danh sách đề tài nckh có chưa ạ?",Student_research
+cho em xin mẫu hồ sơ đk nguyện vọng 1 vào trg vs ạ,Asking_docs
+điều kiện để được nhận học bổng tạ quang bửu năm nay là gì ạ?,Scholar
+anh chị ơi cho em hỏi nộp hồ sơ vào khoa gửi qua địa chỉ nào ạ, Enrollment
+"thời gian đăng kí dự thi vào đhqg là lúc nào, hồ sơ phải bao gồm những gì?", Enrollment
+các chương trình bằng kép học trong bao lâu,Major_infor
+những trường nào sẽ tiếp nhận sinh viên chuyển tiếp từ khoa mình vậy ạ,Major_infor
+em cảm ơn,Bye
+hồ sơ nhập học có yc học bạ k ạ, Enrollment
+nếu học thì mình sẽ học ở cơ sở nào?,School_infor
+form dk vượt tiên quyết vs ạ,Asking_docs
+ad ơi,Greetings
+"ad ơi, khoa mình có chương trình song bằng k ạ?",Major_infor
+"a/c ơi, thời gian đk đề tại nckh là ntn ạ?",Student_research
+em sẽ về nước sớm vào ngày mai (4/9). vậy chiều 5/9 em có thể đến làm thủ tục nhập học được không ạ?, Enrollment
+ht thong tin năm ngoái lấy bao đ ạ,Basic_point
+dạ em hiểu rồi ạ,Agree
+"đúng câu của mình rồi, bạn giúp mình giải đáp nhé",Agree
+bên mình khoa quản lí đh hoa kỳ cấp bằng lấy bao nhiêu chỉ tiêu ạ?,Admission_method
+"ad ơi, cho em danh sách các chương trình liên kết với ạ?",Major_infor
+em muốn biết mã xét tuyển cauwr kế toán ạ,Major_infor
+khoa qt điểm trúng tuyển năm nay khoảng nào ạ,Basic_point
+tham gia nckh có đc tạo đk ưu tiên về thời gian nghỉ ở lớp k ạ?,Student_research
+học bổng chu văn an là học bổng gì vậy ạ?,Scholar
+em có thể đến 1 trong 3 cơ sở của khoa để nhập học đúng k ạ, Enrollment
+"phải thi hay xét điểm học bạ, ielts bao nhiêu?",Admission_method
+e hỏi tý ạ,Greetings
+sđt khoa mình bao nhiêu thế ad ơi ?,contact_point
+giảng viên nước ngoài là giảng viên thỉnh giảng hay cơ hữu ạ,Major_infor
+học phí của khoa quốc tế như thế nào ạ ?,Tuition_fee
+ad có biết chính xác khi nào nhập học không ạ?, Enrollment
+"ad ơi, năm nay lội trình nckh là ntn vậy ạ?",Student_research
+ngôn ngữ làm đề tài là gì ngoài tiếng anh ạ?,Student_research
+hằng năm thi tiếng anh vào tháng mấy ạ,Eng_condition
+cho em hỏi thi tiếng anh thi theo phương thức gì,Eng_condition
+em muốn nộp hồ sơ nhập học thì nộp ở đâu ạ, Enrollment
+chào ad ạ,Greetings
+"ad oi, sao khoa quốc tế ở xuan thủy mà sao lại nhap hoc ở thanh xuân ạ.z học ở đâu ạ, có đc hoc ở xuan thủy k ạ??",School_infor
+kỳ thi tiếng anh chọn lớp bao h diễn ra vậy ạ,Eng_condition
+học phí thì bn tiền 1 năm ạ và có thay đổi theo từng năm ko ạ,Tuition_fee
+đúng thông tin em muốn đc giải đáp ạ,Agree
+mỗi level ta học trong mấy tháng ạ,Major_infor
+đhqghn còn cung cấp cho sv những học bổng nào cho khoa mình ạ,Scholar
+ý em là về mặt kiến thức chuyên nghành sau khi ra trường thì có đảm bảo như 1 số trg chuyên về kinh tế khác ko ạ?,Job_Opportunities
+many thanks,Bye
+địa chỉ email của ng xử lí hồ sơ nhập học sáng nay là gì ạ?, Enrollment
+hthoong thông tin quản lí về sau lgi ạ,Job_Opportunities
+"ad cho em hỏi, khoa mình có những học bổng gì ạ",Scholar
+"ad ơi, học phí của khoa mình là bao nhiêu ạ?",Tuition_fee
+"cô ơi, cho em hỏi học phí của khoa ngành kinh tế ,về chính sách học bổng của khoa ạ",Tuition_fee
+hello a/c,Greetings
+"chào ad ạ, ad cho mình hỏi là ngoài phương thức xét tuyển bằng cách lấy điểm thi đánh giá năng lực, thì khoa xét tuyển bằng điểm thi quốc gia của những khối nào ạ?",Admission_method
+ad ơi bh còn xét tuyển bằng học bạ đc ko ạ,Admission_method
+thời gian học của ngành nào lâu nhất ạ,Major_infor
+học bổng xs loại 2 có mấy xuất ạ?,Scholar
+làm gì để có học bổng ạ,Scholar
+quy trình thực hiện đè tài nckh ạ?,Student_research
+gía trị của học bổng posco là bao nhiêu ạ?,Scholar
+thời gian học giữa các ngành giống nhau hay khác nhau ạ,Major_infor
+"ad ơi, em muốn hỏi là khoa mình năm nay  sẽ dành bao nhiêu suất học bổng cho sinh viên đạt  thành tích học tập xuất sắc ạ?",Scholar
+bh thì ad hiểu ý em rồi,Agree
+"ad ơi, khoa mình có những chương trình liên kết nào vậy ạ?",Major_infor
+ad nhâm nữa rồi,Denydisagree
+chỉ tiêu chuyển tiếp của đại học troy 1 năm là bao nhiêu ?,Major_infor
+năm 2017 có những đề tài nckh nào vậy ad?,Student_research
+khoa mình nhập học tại cơ sở mấy và địa chỉ ntn ạ?, Enrollment
+"đấy k phải vấn đề em muốn hỏi,",Denydisagree
+anh/chị cho em hỏi điểm chuẩn vào khoa năm 2016 là bao nhiêu v?,Basic_point
+"a/c ơi, hạn nộp báo cáo tiến độ là bao giờ vậy ạ?",Student_research
+e nhắc lại câu tl này,Denydisagree
+"ad ơi, em muốn đk chương trình lk của khoa, ad gửi cho em xin thông tin nhé",Major_infor
+cho em hỏi về khung đào tạo của ngành kinh doanh quốc tế với ạ,Major_infor
+em có đc ưu tiên gì khi tham gia nckh k ạ?,Student_research
+điểm chuẩn trươdng mình dao động khoảng bn ạ ??,Basic_point
+em có thể gửi hồ sơ nhập học qua đg bưu điện k ạ, Enrollment
+e đag học khoa kế -kiểm,Major_infor
+chỉ tiêu học bổng mỗi kì có khác nhau k ạ?,Scholar
+học kinh doanh quốc tế ra sau e có thế làm những công việc gì ạ??,Job_Opportunities
+hôm trước e lên website của trg thấy có ngành quản lí sao ko thấy ở đây ạ?,Other
+"ad ơi, nếu em tham gia đề tài nckh thì bao giờ chúng em phải bảo vệ đề tài nckh vậy ạ?",Student_research
+ad cho e hoi,Greetings
+hoọc mis sau này làm về lĩnh vực nào chủ yếu ạ ?,Job_Opportunities
+khoa chỉ nhận hồ sơ xét tuyển thẳng vào ngày 1/8 thôi ạ?,Admission_method
+1 tín chỉ ngành miss = bao nhiu ạ,Tuition_fee
+ok thanks,Bye
+"ad owi, các đề tài nckh của khoa mình thì về những lĩnh vực gì vậy ạ?",Student_research
+những ngành nay ra trg k dc cấp bằng của đhqg hả ad,Major_infor
+với cả năm đầu các môn chính trị học theo tín chỉ thì bao nhiêu tiền 1 tín chỉ ạ,Tuition_fee
+ad hiểu ra rồi đó,Agree
+cơ sở nào của khoa tiệp nhận hồ sơ nhập học qua ddg bưu điện ạ, Enrollment
+khoa mình có nhuững chương trình bằng kép nào ạ?,Major_infor
+em đỗ chg trình liên kết vs đh troy thì thủ tục nhập học như thê nào ạ>, Enrollment
+ad k hiểu câu hỏi của e rồi,Denydisagree
+gửi cho em đơn đk học bằng kép tại đh ngoại ngữ vs ạ,Asking_docs
+khi nào đk tham gia đề tài  nckh ạ?,Student_research
+thủ tục nhập học hôm 1/8 là ntn ạ, Enrollment
+thầy cô cho em hỏi học khoa học quản lý xong làm những cv cụ thể nào ý ạ,Job_Opportunities
+khoa quản trị kinh doanh quốc tế khác gì với kinh doanh quốc tế ạ,Major_infor
+địa chỉ email của ng có thể giúp em giải đáp về hồ sơ nhập học của khoa mình là ntn ạ?, Enrollment
+chương trình lk thì nộp hồ sơ nhập học ở đâu ạ?, Enrollment
+dđh help yêu cầu chuyển tiếp ntn,Major_infor
