@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Intent_Recognition and NER</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body style="background-color:#5dbcd2;">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <a class="navbar-brand" href="/">Intent_Recognition and NER</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+
+
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<br/>
+<br/>
+<br/>
+    <div class="container">
+        <p style="text-align:center;"><b><mark>ĐỒ ÁN TỐT NGHIỆP</mark></b></p>
+        <p style="text-align:center;"><b><mark>Đề tài: "Phát hiện ý định người dùng và nhận dạng tên thực thể trong hệ thống hỏi đáp tự động cho lĩnh vực giáo dục"</mark></b></p>
+        <p style="text-align:center;"><b><mark>GVHD: TS.NGÔ XUÂN BÁCH</mark></b></p>
+        <p style="text-align:center;"><b><mark>SINH VIÊN: NGUYỄN VĂN THẮNG</mark></b></p>
+        <p style="text-align:center;"><b><mark>MÃ SV: B16DCCN322</mark></b></p>
+        <p style="text-align:center;"><b><mark>LỚP: D16HTTT1</mark></b></p>
+        <form id="form_" method="POST" action="/process">
+            <div class="form-group">
+            <textarea id = "_mot" type="text" rows="5" cols="5" class="form-control"  name="rawtext" required="true" placeholder="Nhập câu hỏi..." >{{text}}</textarea>
+
+            <br/>
+                <label>Lựa chọn mô hình</label>
+            <select id="select_" class="form-control" name="model_option">
+			  <option class="option_" value="cnn">CNN</option>
+			  <option class="option_" value="lstm">LSTM</option>
+			</select>
+			<br/>
+            <button type="reset"  id="reset_" class="btn btn-primary"><i class="fa fa-eraser"></i> Clear</button>
+            <button id="button_" type="submit" class="btn btn-info" onclick="return vote_hl()"><i class="fa fa-database" ></i>Intent + NER</button>
+
+        </div>
+
+
+        </form>
+
+    </div>
+    <div class="left">
+        <div class="content">
+                    <div class="row3">
+                        <div id="text_view" ></div>
+
+                    </div>
+        </div>
+    </div>
+    <div class="right">
+        <div class="row2">
+                <ul>
+                    <li id="l1">
+                        <span>Time</span>
+                        <a class="tag bg-ffb5ca">datetime</a>
+                    </li>
+                    <li id="l2">
+                        <a class="tag bg-fea159">Uni_Name</a>
+                        <span>Name of University</span>
+                    </li>
+                    <li id="l3">
+                        <span>Name of Major</span>
+                        <a class="tag bg-007100 cl-fff">Major_Name</a>
+                    </li >
+                    <li id="l4">
+                        <a class="tag bg-ff0091">Scholar_Name</a>
+                        <span>Name of Scholar</span>
+                    </li>
+                    <li id="l5">
+                        <span>Number</span>
+                        <a class="tag bg-000000 cl-fff">number</a>
+                    </li>
+                    <li id="l6">
+                        <a class="tag bg-f7ffd0">duration</a>
+                        <span>Duration</span>
+                    </li>
+
+                    <li id="l7">
+                        <span>Mode of Major</span>
+                        <a class="tag bg-27008d cl-fff">Major_Mode</a>
+
+                    </li>
+                    <li id="l8">
+                        <a class="tag bg-66ff95">Admission_Type</a>
+                        <span>Type of Admission</span>
+                    </li>
+                    <li id="l9">
+                        <span>The Location</span>
+                        <a class="tag bg-b20024 cl-fff">Location</a>
+                    </li>
+                    <li id="l10">
+                        <a class="tag bg-933d05 cl-fff">Docs_Name</a>
+                        <span>Name of Docs</span>
+                    </li>
+                    <li id="l11">
+                        <span>Years of Student</span>
+                        <a class="tag bg-00bbff">K_Years</a>
+                    </li>
+                    <li id="l12">
+                        <a class="tag bg-6782f0">Subject_Name</a>
+                        <span>Name of Subject</span>
+                    </li>
+                    <li id="l13">
+                        <span>Name of Department</span>
+                        <a class="tag bg-9b008c cl-fff">Dept_Name</a>
+                    </li>
+                    <li id="l14">
+                        <a class="tag bg-d3d3d3">Teacher_Name</a>
+                        <span>Name of Teacher</span>
+                    </li>
+                    <li id="l15">
+                        <span>Name of Campus</span>
+                        <a class="tag bg-ff0000">Campus_Name</a>
+                    </li>
+
+                </ul>
+        </div>
+    </div>
+
+    <style>
+        #text_view{
+            height: 300px;
+            width: 73%;
+
+            background-color: whitesmoke;
+            border-radius: 10px;
+            margin: 50px 200px;
+            padding: 40px 20px;
+            font-size: 20px;
+            border: 1px solid darkgray;
+            font-family: 'Consolas', 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+        }
+
+        .footer {
+          position: fixed;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          background-color: gray;
+          color: white;
+          text-align: center;
+        }
+
+
+        .right .row2 .tag{
+            width: 30%;
+            padding: 5px 15px;
+            border-radius: 5px;
+            font-size: 14px;
+            display: inline-block;
+            text-align: center;
+        }
+        .right .row2 ul{
+            padding: 0;
+            list-style: none;
+        }
+        .right .row2 ul li{
+            display: inline-block;
+            width: 48%;
+            padding: 5px 0;
+        }
+        .right .row2 ul li:nth-child(odd){
+            text-align: right;
+            padding-right: 1%;
+        }
+        .right .row2 ul li:nth-child(odd) a{
+            margin-left: 5px;
+        }
+        .right .row2 ul li:nth-child(even) a{
+            margin-right: 5px;
+        }
+        .right .row2 ul li:nth-child(even){
+            padding-left: 1%;
+        }
+        .right .row2 ul li span{
+            display: inline-block;
+        }
+        @media only screen and (max-width : 1024px){
+            .right .row2 ul li span{
+                font-size: 13px;
+            }
+            #l1,#l2,#l3,#l4,#l5,#l6,#l7,#l8,#l9,#l10,#l11,#l12,#l13,#l14,#l15{
+                width: 100%;
+            }
+            #text_view{
+            height: 200px;
+            width: 100%;
+
+            background-color: whitesmoke;
+            border-radius: 10px;
+            margin: 5px 20px;
+            padding: 40px 20px;
+            font-size: 15px;
+            border: 1px solid darkgray;
+            font-family: 'Consolas', 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+            }
+        }
+        @media only screen and (max-width : 768px){
+            body{
+                display: block;
+            }
+            #l1,#l2,#l3,#l4,#l5,#l6,#l7,#l8,#l9,#l10,#l11,#l12,#l13,#l14,#l15{
+                width: 100%;
+            }
+            #text_view{
+            height: 200px;
+            width: 100%;
+
+            background-color: whitesmoke;
+            border-radius: 10px;
+            margin: 5px 20px;
+            padding: 40px 20px;
+            font-size: 15px;
+            border: 1px solid darkgray;
+            font-family: 'Consolas', 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+            }
+        }
+        @media only screen and (max-width : 320px){
+            body{
+                display: block;
+            }
+            #l1,#l2,#l3,#l4,#l5,#l6,#l7,#l8,#l9,#l10,#l11,#l12,#l13,#l14,#l15{
+                width: 100%;
+            }
+            #text_view{
+            height: 200px;
+            width: 100%;
+
+            background-color: whitesmoke;
+            border-radius: 10px;
+            margin: 5px 20px;
+            padding: 40px 20px;
+            font-size: 15px;
+            border: 1px solid darkgray;
+            font-family: 'Consolas', 'Deja Vu Sans Mono', 'Bitstream Vera Sans Mono', monospace;
+            }
+        }
+        .bg-ffb5ca{
+            background: pink;
+        }
+        .bg-fea159{
+            background: darkgreen;
+        }
+        .bg-007100{
+            background: coral;
+            color: white
+        }
+        .bg-ff0091{
+            background: darkblue;
+        }
+        .bg-000000{
+            background: brown;
+        }
+        .bg-f7ffd0{
+            background: lightblue;
+        }
+        .bg-27008d{
+            background: darkmagenta;
+        }
+        .bg-66ff95{
+            background: red;
+        }
+        .bg-b20024{
+            background: greenyellow;
+        }
+        .bg-933d05{
+            background: orange;
+        }
+        .bg-00bbff{
+            background: yellow;
+        }
+        .bg-6782f0{
+            background: rosybrown;
+        }
+        .bg-9b008c{
+            background: sandybrown;
+        }
+        .bg-d3d3d3{
+            background: deeppink;
+        }
+        .bg-ff0000{
+            background: lightgoldenrodyellow;
+        }
+
+
+        .tag_datetime{background-color: pink; color: black; width: auto; float: left; border-radius: 5px; margin: 5px 5px;}
+        .tag_Uni_Name{background-color: darkgreen; color: white; width: auto; float: left; border-radius: 5px; margin: 5px 5px;}
+        .tag_Major_Name{background-color: coral; color: white; width: auto; float: left; border-radius: 5px; margin: 5px 5px;}
+        .tag_Scholar_Name{background-color: darkblue; color: white; width: auto; float: left; border-radius: 5px; margin: 5px 5px;}
+        .tag_number{background-color: brown; color: white; width: auto; float: left; border-radius: 5px; margin: 5px 5px;}
+        .tag_duration{background-color: lightblue; color: black; width: auto; float: left; border-radius: 5px; margin: 5px 5px;}
+        .tag_Major_Mode{background-color: darkmagenta; color: white; width: auto; float: left; border-radius: 5px; margin: 5px 5px;}
+        .tag_Admission_Type{background-color: red; color: black; width: auto; float: left; border-radius: 5px; margin: 5px 5px;}
+        .tag_Location{background-color: greenyellow; color: black; width: auto; float: left; border-radius: 5px; margin: 5px 5px;}
+        .tag_Docs_Name{background-color: orange; color: black; width: auto; float: left; border-radius: 5px; margin: 5px 5px;}
+        .tag_K_Years{background-color: yellow; color: black; width: auto; float: left; border-radius: 5px; margin: 5px 5px;}
+        .tag_Subject_Name{background-color: rosybrown; color: black; width: auto; float: left; border-radius: 5px; margin: 5px 5px;}
+        .tag_Dept_Name{background-color: sandybrown; color: black; width: auto; float: left; border-radius: 5px; margin: 5px 5px;}
+        .tag_Teacher_Name{background-color: deeppink; color: black; width: auto; float: left; border-radius: 5px; margin: 5px 5px;}
+        .tag_Campus_Name{background-color: lightgoldenrodyellow; color: black; width: auto; float: left; border-radius: 5px; margin: 5px 5px;}
+        .tag_O{background-color: whitesmoke; color: black; width: auto; float: left; border-radius: 5px; margin: 5px 5px;}
+
+    </style>
+
+
+<!--    <div class="footer">-->
+<!--      <p>Xin chân thành cảm ơn quý thầy cô và các bạn!</p>-->
+<!--    </div>-->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script>
+        function vote_hl() {
+
+                var text = document.getElementById("_mot").value;
+                var model = document.getElementById("select_").value;
+                var dict = {text: text,model:model};
+                var req = new XMLHttpRequest();
+
+                req.open("POST", "/process", false);
+
+                req.setRequestHeader("Content-Type", "application/json; charset=UTF-8");
+
+                req.send(JSON.stringify(dict));
+
+                var resp = JSON.parse(req.response).text_tagged;
+                alert("Well done!");
+                var st2 = resp.text;
+                var results_17 = "Chủ đề (Nhãn-Label) dự đoán cho tập nhãn thô: "+resp.results_17+"<br>"+"Chủ đề (Nhãn-Label) dự đoán cho tập nhãn mịn: "+resp.results_45+"<br>"+"Answer: "+resp.answer+"<br>"+st2;
+                var results_45 = "Chủ đề (Nhãn-Label) dự đoán cho tập nhãn mịn: "+resp.results_45;
+                var view = document.getElementById("text_view");
+                view.innerHTML = results_17;
+                var node = document.createElement("br");
+<!--                view.appendChild(node)-->
+                var textnode = document.createTextNode(results_45);         // Create a text node
+                node.appendChild(textnode);
+                view.appendChild(node)
+
+                return false;
+            }
+        $('#reset_').click(function(){
+             $('#_mot').html("");
+             $('.container').find('.results_').html("");
+        });
+
+         $('#select_').change(function(){
+         debugger
+         var ss = $('#select_ option:selected').val();
+            if(ss != '' ){
+                $('.content').find('#text_view').html("");
+            }else {
+
+            }
+         });
+
+
+    </script>
+</body>
+</html>
